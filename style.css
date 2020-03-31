@@ -1,0 +1,154 @@
+body {
+  background-color: #7b738a;
+}
+#main {
+  width: 1000px;
+  height: 600px;
+  background-color: #f2f2f4;
+  margin: auto;
+  position: relative;
+}
+#list {
+  width: 800px;
+  height: 150px;
+  float: right;
+  position: relative;
+}
+#logo {
+  width: 200px;
+  height: 150px;
+  float: left;
+  background-color: #fb2d5c;
+  position: relative;
+}
+#music {
+  width: 800px;
+  height: 550px;
+  background-color: #fff;
+  float: right;
+  position: relative;
+}
+#side_list {
+  width: 200px;
+  height: 550px;
+  float: left;
+  background-color: #2b2f3e;
+  position: relative;
+  
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Edwardian Script ITC;
+  font-size: 50px;
+  margin-top: 15px;
+  text-shadow: 5px 5px grey;
+}
+p{
+  text-align: center;
+  color: #fff;
+}
+
+img {
+  margin-left: 40px;
+  margin-top: 12px;
+  float: left;
+  border-radius: 10%;
+}
+input {
+  float: right;
+  margin: 40px 50px 0 0;
+}
+#left_menu {
+  color: white;
+  margin: 50px 0 0 30px;
+}
+#left_menu li {
+  margin-bottom: 30px;
+  font-family: Berlin Sans FB;
+  cursor: pointer;
+}
+
+#left_menu li:hover {
+  color: #fb2d5c;
+  text-decoration: underline;
+}
+
+#top_menu {
+  margin-top: 40px;
+  float: left;
+}
+#top_menu li {
+  display: inline;
+  margin-left: 10px;
+}
+#top_menu li a {
+  color: gray;
+  text-decoration: none;
+  font-family: Berlin Sans FB;
+}
+#top_menu li a:hover {
+  color: #fb2d5c;
+  text-decoration: underline;
+}
+#PopUp {
+  position: absolute;
+  text-align: right;
+  width: auto;
+  height: auto;
+  /*    z-index:10000; */
+  border: outset olive;
+  visibility: hidden;
+  overflow: auto;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+#PopUp div {
+  cursor: pointer;
+  background-color: olive;
+}
+audio#MusicPlayer {
+  display: none;
+}
+#music img:hover {
+  cursor: pointer;
+}
+#now_playing {
+  position: relative;
+  top: 20px;
+  text-align: center;
+}
+#now_playing:hover {
+  cursor: pointer;
+}
+#frames {
+  width: 100%;
+  height: 400px;
+}
+#myiframe{
+margin-top: 100px;
+margin-left: 600px;
+
+}
+
+
+
+#musicTable{
+  width: 800px;
+  height: 600px;
+  margin: auto;
+}
+
+
+
+
+#musicTable,
+td,
+th {
+  padding: 10px;
+  border-bottom: 2px solid #000;
+  background-color: #fff;
+  text-align: center;
+
+}

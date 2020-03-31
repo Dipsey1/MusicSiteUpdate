@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <title>My journey as a coder</title>
+  </head>
+  <body>
+    <div id="main">
+      <div id="list">
+        <ul id="top_menu">
+          <li><a href="https://youtu.be/A3dds4zLOwI">Explore</a></li>
+          <li>
+            <a
+              href="https://soundcloud.com/abdoulie-dibbasey/dibz-ft-njies-bounceback-1"
+              >Music Songs</a
+            >
+          </li>
+        </ul>
+
+        <input type="search" placeholder="Music Search" />
+      </div>
+      <div id="logo"><h1>Music</h1></div>
+      <div id="music" onclick="show()">
+        <a href="/Albums.html"
+          ><img src="images/yg.jpg" alt="" width="150" height="150" id="yg"
+        /></a>
+        <div>
+          <img
+            src="images/kendrick-damn.jpeg"
+            alt=""
+            width="150"
+            height="150"
+            id="kendrick"
+            onclick="playAndPause('musicFiles/kendrick_lamar_humble._mp3_69212.mp3')"
+          />
+        </div>
+        <img
+          src="images/tyga.jpeg"
+          alt=""
+          width="150"
+          height="150"
+          id="tyga.jpeg"
+          onclick="playAndPause('musicFiles/tyga_yg_santana_mamacita_official_video_mp3_54012.mp3')"
+        />
+        <img
+          src="images/tory-lanez.jpg"
+          alt=""
+          width="150"
+          height="150"
+          id="tory-lanez.jpg"
+          onclick="playAndPause('musicFiles/tory_lanez_and_t-pain_jerry_sprunger_official_music_video_mp3_68156.mp3')"
+        />
+        <img
+          src="images/travis-scott.jpg"
+          alt=""
+          width="150"
+          height="150"
+          id="travis-scott.jpg"
+          onclick="playAndPause('musicFiles/travis_scott_highest_in_the_room_mp3_68096.mp3')"
+        />
+        <img
+          src="images/theWeekend.jpg"
+          alt=""
+          width="150"
+          height="150"
+          id="theWeekend.jpg"
+          onclick="playAndPause('musicFiles/the_weeknd_starboy_ft._daft_punk_mp3_54530.mp3')"
+        />
+        <img
+          src="images/chris-brown.jpg"
+          alt=""
+          width="150"
+          height="150"
+          id="chris-brown.jpg"
+          onclick="playAndPause('musicFiles/pills_automobiles_official_video_mp3_54438.mp3')"
+        />
+        <img
+          src="images/wiz-khalifa.jpeg"
+          alt=""
+          width="150"
+          height="150"
+          id="wiz-khalifa.jpg"
+          onclick="playAndPause('musicFiles/wiz_khalifa_bammer_official_audio_mp3_68062.mp3')"
+        />
+        <img
+          src="images/nav-badhabits.jpg"
+          alt=""
+          width="150"
+          height="150"
+          id="nav-badhabits.jpg"
+          onclick="playAndPause('musicFiles/nav_habits_official_audio_mp3_54467.mp3')"
+        />
+        <img
+          src="images/shek-wes.jpeg"
+          alt=""
+          width="150"
+          height="150"
+          id="shek-wes.jpg"
+          onclick="playAndPause('musicFiles/sheck_wes_mo_bamba_mp3_54492.mp3')"
+        />
+        <img
+          src="images/popcaan.jpg"
+          alt=""
+          width="150"
+          height="150"
+          id="popcaan.jpg"
+          onclick="playAndPause('musicFiles/davido_risky_official_video_ft._popcaan_mp3_68031.mp3')"
+        />
+        <img
+          src="images/j.cole-kod.jpg"
+          alt=""
+          width="150"
+          height="150"
+          id="j.cole-kod.jpg"
+          onclick="playAndPause('musicFiles/j._cole_wet_dreamz_mp3_68587.mp3')"
+        />
+        <div id="now_playing" onclick="playAndPause()"></div>
+      </div>
+      <div id="side_list">
+        <ul id="left_menu">
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="Random.html">Random</a></li>
+          <li><a href="Albums.html">Albums</a></li>
+          <li><a href="HipHopNews.html">HipHopNews</a></li>
+          <li><a href="8DMusic.html">8DMusic</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <audio id="MusicPlayer" controls>
+      <source
+        id="song"
+        src="/musicFiles/pills_automobiles_official_video_mp3_54438.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+    <script type="text/javaScript" src="music.js"></script>
+
+    <iframe
+      width="560"
+      height="315"
+      id="myiframe"
+      src="https://www.youtube.com/embed/CepeycyGhwE?controls=0"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+
+    <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CepeycyGhwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+  </body>
+</html>
+'
